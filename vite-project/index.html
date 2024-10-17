@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-5">
+  <h1>Posts</h1>
+  <button id="addPostButton" class="btn btn-primary mb-3">Add Post</button>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>UserID</th>
+      <th>Title</th>
+      <th>Body</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="post-table-body">
+    <!-- Посты будут динамически добавляться сюда -->
+    </tbody>
+  </table>
+</div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
